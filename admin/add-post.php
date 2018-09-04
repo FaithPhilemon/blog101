@@ -1,4 +1,4 @@
-<?php include ("header.php") ?>
+<?php include ("../includes/header.php") ?>
 
 <form action="" method="POST" role="form">
     <legend>CREATE POST</legend>
@@ -31,4 +31,4 @@
 
 
 
-<?php include ("footer.php") ?>
+<?php include ("../includes/footer.php") ?>
