@@ -24,4 +24,14 @@ function delete_row($table, $id){
 }
 
 
-
+// =========================================
+// Takes in data and validtes it
+// =========================================
+function validate($data){
+    if(empty($data)){
+        return "empty";
+    }else{
+        stripslashes(trim(mysqli_real_escape_string($conn, $data)));
+        return $data;
+    }
+}
