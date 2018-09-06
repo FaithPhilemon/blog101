@@ -29,7 +29,7 @@ function delete_row($table, $id){
 // =========================================
 function validate($data){
     if(empty($data)){
-        return "empty";
+        return false;
     }else{
         stripslashes(trim(mysqli_real_escape_string($conn, $data)));
         return $data;
