@@ -21,8 +21,9 @@
             }else {
                 $msg_success = '<div class="alert alert-success">
                                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                                    '.$cat.' <strong>category</strong> has been created
+                                    <strong>'.$cat.'</strong> category has been created
                                 </div>';
+
             }
            
         }
