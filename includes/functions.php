@@ -28,6 +28,7 @@ function delete_row($table, $id){
 // Takes in data and validtes it
 // =========================================
 function validate($data){
+    include ("connection.php");
     if(empty($data)){
         return false;
     }else{
