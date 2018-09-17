@@ -49,3 +49,5 @@
         </ul>
     </div><!-- /.navbar-collapse -->
 </nav>
+<div class="container">
+<!-- body begins -->
